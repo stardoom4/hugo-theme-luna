@@ -1,7 +1,7 @@
 baseURL: https://hugo-theme-luna.imiku.me/
 languageCode: en-us
 defaultContentLanguage: en-us
-title: "Hugo Theme Luna"
+title: "Celestial Mind"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
@@ -10,7 +10,7 @@ timeZone: Asia/Shanghai
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
-enableGitInfo: false
+enableGitInfo: true
 
 # 如果你的博客包含中日韩语，请启用此选项
 # enable CJK language support
@@ -35,7 +35,7 @@ permalinks:
   pages: /:slug.html # about.html
 
 author:
-  name: Ice-Hazymoon
+  name: Garuda
 
 frontmatter:
   lastmod:
@@ -195,7 +195,7 @@ params:
   # 评论系统
   # Comment system
   comments:
-    enabled: true
+    enabled: false
     provider: "giscus" # custom | giscus
     giscus: &giscus
       repo: "Ice-Hazymoon/hugo-theme-luna"
@@ -264,11 +264,11 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2023/10/10
   
   #  网站创建年份
   # Site creation year
-  since: "2016"
+  since: "2023"
 
   # 显示文章过时提醒
   # show warning when outdated info detected
@@ -351,7 +351,7 @@ params:
 
   # 显示文章字数
   # show word count
-  wordCount: false
+  wordCount: true
 
   # 开启文章内目录，可以在页面内单独设置
   # Show table of contents, You can enable it separately in the page
